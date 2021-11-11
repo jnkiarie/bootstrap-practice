@@ -15,3 +15,24 @@ while (myNumber < 20){
 const myFunction = (element)=>{
     
 }
+
+const manUPlayers = ["Wayne Rooney","Christiano Ronaldo","Chicharito Maritas","hos Pogba"];
+
+//Functions
+
+const manUPlayersEmail = (footballer) => {
+    const newNames = footballer.split(" ");
+    const firstName = newNames[0];
+    const lastName = newNames[1];
+    const firstLetter = firstName[0];
+    const playerEmails = firstLetter + lastName + "@moringaschool.com";
+    return playerEmails;
+}
+
+for(let i=0;i<=manUPlayers.length;i++){
+    const footballer = manUPlayers[i];
+    const myEmail = manUPlayersEmail(footballer);
+    console.log("Player",i,"Email: is ",myEmail)    
+    }
+
+
