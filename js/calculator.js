@@ -15,9 +15,7 @@ const additionFunction = function(number1, number2) {
   
   var num1 = parseInt(prompt("Enter first number"));
   var num2 = parseInt(prompt("Enter the second number"));
-  var calc = (prompt("Enter the Operator"));
-  
-  
+  var calc = (prompt("Enter the Operator"));  
   
   if (calc == "*") {
     let result = multiplyFunction(num1, num2);
